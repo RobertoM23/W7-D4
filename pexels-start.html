@@ -11,7 +11,7 @@
       
       async function fetchImages(query) {
         const response = await fetch(API_URL + query, {
-          headers: { Authorization: API_KEY }
+          headers: { Authorization: "3rYPN7l6Nw6DwOWJfhkE8nBmhb244QeBbmOdGoHx94bA1GLdfxRa7vy8" }
         });
         const data = await response.json();
         displayImages(data.photos);
